@@ -208,3 +208,30 @@ window.addEventListener("load", () => {
     site.style.opacity = "1";
   }, 3000); // must match animation-delay
 });
+
+// ================= TEAM MEMBER PROFILE NAVIGATION =================
+const teamTrackEl = document.getElementById("teamTrack");
+
+if (teamTrackEl) {
+  teamTrackEl.addEventListener("click", (e) => {
+    const card = e.target.closest(".team-card");
+    if (!card) return;
+
+    const memberId = card.dataset.member;
+    if (!memberId) return;
+
+    window.location.href = `team-member.html?id=${encodeURIComponent(memberId)}`;
+  });
+
+  teamTrackEl.addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const card = e.target.closest(".team-card");
+    if (!card) return;
+
+    const memberId = card.dataset.member;
+    if (!memberId) return;
+
+    e.preventDefault();
+    window.location.href = `team-member.html?id=${encodeURIComponent(memberId)}`;
+  });
+}
