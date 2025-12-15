@@ -51,6 +51,29 @@ const TEAM = {
       <div><strong>English Language Diploma | JU Gate Academy</strong> <span style="float:right;opacity:.7">Jan 2023 - Jul 2023</span></div>
     `
   },
+   enas: {
+    name: "Enas Al-Thaher",
+    photo: "assets/images/team-members/e.png",
+    bio: "I am a passionate and detail-oriented Front-End Developer at XO for Software, with skills in front-end web development and UI/UX design. I focus on building responsive and user-friendly web interfaces by translating UI designs into functional and well-structured front-end code.",
+    linkedin: "https://jo.linkedin.com/in/enas-althaher-1651042b7",
+    github: "https://github.com/enas0",
+    email: "mailto:enasalthaher91@gmail.com",
+    educationHtml: `
+      <strong>Computer Science Student</strong><br/>
+      The University of Jordan<br/>
+      <span style="opacity:.7"> Oct 2023 </span>
+    `,
+    projects: [
+      { title: "Food Security in Jordan", img: "assets/images/projects/project7.jpeg", desc: "As the Front-End Developer, I implemented responsive and functional web interfaces for the Food Security in Jordan platform for the Pixelsite Web Competition. This project allowed me to strengthen my front-end development skills while contributing to a platform addressing an important topic. Winning 1st place in the competition." },
+      { title: "LIBROLOOP — Where Books Connect People ", img: "assets/images/projects/project5.png", desc: "As Front-End Developer for LibroLoop, I built responsive web pages for a platform connecting readers, communities, and publishers, gaining hands-on experience in translating requirements into clean and maintainable front-end code." },
+      { title: "My Accessible Journey ", img: "assets/images/projects/project6.png", desc: "As the UI/UX Designer and Front-End Developer for My Accessible Journey, a project in the Orange Accessibility Challenge 2025, I designed and implemented user-centered, responsive web interfaces to help people with disabilities plan and enjoy their travel experiences" }
+    ],
+    certsHtml: `
+     <div><strong> Fall Stack Engineer | Code Cademy  </strong> <span style="float:right;opacity:.7">NOV 2025 </span></div><br/>
+      <div><strong>Problem Solving |NASA </strong> <span style="float:right;opacity:.7">Sep 2025 - Oct 2025</span></div><br/>
+      <div><strong>UI/UX Design | Code Cademy </strong> <span style="float:right;opacity:.7"> Dec 2025 </span></div>
+    `
+  },
 
   // add other members here: hayat, hashem, sedra, ...
 };
