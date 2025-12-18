@@ -51,8 +51,168 @@ const TEAM = {
       <div><strong>English Language Diploma | JU Gate Academy</strong> <span style="float:right;opacity:.7">Jan 2023 - Jul 2023</span></div>
     `
   },
+  
+  sedra: {
+    name: "Sedra Hussein",
+    photo: "assets/images/team-members/sedra.png",
+    bio: "CTO | Frontend Developer | UI/UX Designer .. Tech leader focused on building user-friendly products, solving challenges, and developing projects using Python, C++",
+    linkedin: "https://www.linkedin.com/in/sedra-oliemat-830278302",
+    github: "https://github.com/sedra4v",
+    email: "sedraaloliemat7@gmail.com",
+    educationHtml: `
+      <strong>Computer Science Student</strong><br/>
+      The University of Jordan<br/>
+      <span style="opacity:.7">Oct 2023 - Now</span>
+    `,
+    projects: [
+        { title: "Cura", img: "assets/images/projects/team-member-proj/Sedra12.png", desc: "an AI-powered platform that helps hospitals work more efficiently and makes the patient experience smoother." },
+    { title: "SkyCue", img: "assets/images/projects/project4.png", desc: "An intelligent platform combining meteorology, agriculture, and travel to help users plan smartly." },
+       { title: "Semsem Educational Platform", img: "assets/images/projects/project1.png", desc: " A fun and interactive learning platform designed to boost children’s creativity and early skills." },
+        { title: "Say2Buy Platform", img: "assets/images/projects/project2.png", desc: " A modern AI-powered shopping assistant designed to make online shopping easier and smarter." },
+      
 
-  // add other members here: hayat, hashem, sedra, ...
+         
+    ],
+    certsHtml: `
+      <div><strong>Fintech Rally Hackathon Participation </strong> <span style="float:right;opacity:.7">July 2025</span></div><br/>
+      <div><strong>Nasa Space App Hackathon Participation </strong> <span style="float:right;opacity:.7">Oct 2025</span></div><br/>
+      <div><strong>Al-Mafraq AI Hackathon Participation </strong> <span style="float:right;opacity:.7">Oct 2025</span></div><br/>
+
+    `
+  },
+
+  majd: {
+    name: "Majd Anas",
+    photo: "assets/images/team-members/majd.png",
+    bio: " a computer science and front-end developer who is always looking for new things to learn.",
+    linkedin: "https://www.linkedin.com/in/majd-anas-746180386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    github: "https://github.com/majd-anas",
+    email: "majdanas2004@gmail.com",
+    educationHtml: `
+      <strong>Computer science, University of Jordan .<br/>
+      <span style="opacity:.7"> 2023-now</span>
+    `,
+    projects: [
+      { title: "LEVIN – Space Biology Research", img: "assets/images/projects/project3.png", desc: "As the UI/UX Designer for the web and mobile platforms and the Mobile Developer, I designed user-centered experiences and developed the LEVIN mobile app to help students and researchers explore and validate their ideas. Being part of a 3rd place winning project at NASA Space Apps Amman was a proud achievement." },
+  
+    ],
+    
+  },
+
+  mahmoud: {
+    name: "Mahmoud",
+    photo: "assets/images/team-members/mahmoud.png",
+    bio: " An ambitious HR professional focused on building strong teams, delivering practical people solutions, and supporting sustainable company growth.",
+    linkedin: "https://www.linkedin.com/in/sanker5h?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    github: "https://github.com/sanker5h",
+    email: "malmasri552@gmail.com ",
+    educationHtml: `
+      <strong>Bachelor's Degree in Computer  Science </strong><br/>
+     Al-Hussain Bin Talal<br/>
+      <span style="opacity:.7">Oct2020-Jul2024</span>
+    `,
+
+  },
+  
+   //notcomplete
+    hashem: {
+    name: "Hashem Shatat",
+    photo: "assets/images/team-members/hashem.png",
+    bio: "Founder and CEO of XO for Software, specializing in software development, IT solutions, artificial intelligence, web and mobile app development, and UI/UX design. He focuses on building innovative digital solutions and supporting tech talent through educational initiatives and collaborations.",
+    linkedin: "https://www.linkedin.com/in/hashem-shatat-559796331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    github: "https://github.com/has73m",
+    email: "hashemtthat@gmail.com",
+    educationHtml: `
+      <strong>Computer science student  </strong><br/>
+      The University of Jordan<br/>
+      <span style="opacity:.7">Oct2023-now</span>
+    `,
+    projects: [
+      { title: "LEVIN – Space Biology Research", img: "assets/images/projects/project3.png", desc: "As the UI/UX Designer for the web and mobile platforms and the Mobile Developer, I designed user-centered experiences and developed the LEVIN mobile app to help students and researchers explore and validate their ideas. Being part of a 3rd place winning project at NASA Space Apps Amman was a proud achievement." },
+       { title: "Semsem Educational Platform", img: "assets/images/projects/project1.png", desc: " A fun and interactive learning platform designed to boost children’s creativity and early skills." },
+        { title: "Say2Buy Platform", img: "assets/images/projects/project2.png", desc: " A modern AI-powered shopping assistant designed to make online shopping easier and smarter." },
+         
+      
+    ],
+    certsHtml: `
+      <div><strong>NASA space apps 2025 Problem solver|Nasa</strong> <span style="float:right;opacity:.7">2025</span></div><br/>
+      <div><strong>Labiba for AI AI agents|IEEE CIS </strong> <span style="float:right;opacity:.7">2025</span></div><br/>
+      <div><strong>AI for beginners |HP </strong> <span style="float:right;opacity:.7">2025</span></div><br/>
+      <div><strong>Problem solver|NASA </strong> <span style="float:right;opacity:.7">2025</span></div><br/>
+      <div><strong>NASA space apps 2024|Al-Hussein Technical University </strong> <span style="float:right;opacity:.7">2024</span></div><br/>
+      <div><strong>Fintech rally|participation  </strong> <span style="float:right;opacity:.7">2025</span></div><br/>
+       <div><strong>Fintech rally|3rd Place Winning Team  </strong> <span style="float:right;opacity:.7">2025</span></div><br/>
+       <div><strong>Ai week 2025|participation  </strong> <span style="float:right;opacity:.7">2025</span></div><br/>
+          <div><strong> web development session workshop |IEEE </strong> <span style="float:right;opacity:.7">2025</span></div><br/>
+    `
+
+  },
+
+  yousefAwar: {
+    name: "Yousef Awar",
+    photo: "assets/images/team-members/yousefawar.png",
+    bio: " Back-End Developer specializing in PHP with experience in building server-side logic, handling databases, and developing dynamic web applications. Strong background in computer science, problem-solving, and writing clean, maintainable code.",
+    linkedin: "https://www.linkedin.com/in/yousef-alawar-09bb2437b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    github: "https://github.com/YousefAlawar",
+    email: "yousefalawar777@gmail.com",
+    educationHtml: `
+      <strong>Computer Science Student</strong><br/>
+      Zarqa University<br/>
+      <span style="opacity:.7">2023-Present</span>
+    `,
+    projects: [
+      { title: "Back-End Developer", img: "assets/images/projects/team-member-proj/yousefAwar1.png", desc: "Built the PHP back-end logic for managing car data and handling database operations." },
+
+    ],
+
+  },
+  
+  //notcomplete
+   leen: {
+    name: "Leen Hamad ",
+    photo: "assets/images/team-members/leen.png",
+    bio: "Computer Science student at Zarqa University with basic knowledge of Java and web development.",
+    linkedin: " https://www.linkedin.com/in/leen-hamad-626241384%EF%BF%BC",
+    github: "https://github.com/leenhamad",
+    email: "leenhamad356@gmail.com ",
+    educationHtml: `
+      <strong>Computer Science Student</strong><br/>
+      Zarqa University <br/>
+      <span style="opacity:.7">2024 -Now</span>
+    `,
+    projects: [
+       
+       { title: "Restaurant Menu Website", img: "assets/images/projects/team-member-proj/leen1.png", desc: "Built a static website using HTML. Created pages for restaurant info, menu, and feedback form." },
+         { title: "Gym Project (Java, In Progress)", img: "assets/images/projects/team-member-proj/leen2.png", desc: " Developing a gym management system using Java; implementing features and applying class concepts." },
+
+    ],
+    
+    
+  },
+
+  //notcomplete
+  lujain: {
+    name: "Lujaen alnablse",
+    photo: "assets/images/team-members/lujain.png",
+    bio: " ",
+    linkedin: " https://www.linkedin.com/in/lujaen-alnablse-b7412b350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    github: "",
+    email: " Lujaenwaseem597@gmail.com",
+    educationHtml: `
+      <strong> Data science and artificial intelligence Student  </strong><br/>
+     al hussein bin talal university  <br/>
+      <span style="opacity:.7">2023-Now</span>
+    `,
+    projects: [
+        { title: " ", img: "assets/images/projects/team-member-proj/lujain1.png", desc: "" },
+          { title: " ", img: "assets/images/projects/team-member-proj/lujain2.png", desc: "" },
+            { title: " ", img: "assets/images/projects/team-member-proj/lujain3.png", desc: "" },
+              { title: " ", img: "assets/images/projects/team-member-proj/lujain4.png", desc: "" },
+
+    
+    ],},
+
+
 };
 
 function getParam(name) {
