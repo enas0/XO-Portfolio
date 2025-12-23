@@ -11,7 +11,7 @@ navToggle.addEventListener("click", () => {
   mainNav.classList.toggle("open");
 });
 
-g
+
 /* =============== SMOOTH SCROLLING FIXED =============== */
 const navLinks = document.querySelectorAll(".nav-link, .header-cta, .footer-nav a, .logo");
 
@@ -35,7 +35,7 @@ navLinks.forEach(link => {
           top: section.offsetTop,
           behavior: "smooth",
         });
-      } 
+      }
       else if (targetId === "#home") {
         // Home must scroll to exact top (no offset)
         window.scrollTo({
