@@ -11,7 +11,7 @@ navToggle.addEventListener("click", () => {
   mainNav.classList.toggle("open");
 });
 
-
+g
 /* =============== SMOOTH SCROLLING FIXED =============== */
 const navLinks = document.querySelectorAll(".nav-link, .header-cta, .footer-nav a, .logo");
 
