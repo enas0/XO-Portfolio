@@ -254,7 +254,10 @@ const TEAM = {
       <span style="opacity:.7">Oct 2023 - Now</span>
     `,
     projects: [
-      { title: "SkyCue", img: "assets/images/projects/project4.png", desc: "An intelligent platform combining meteorology, agriculture, and travel to help users plan smartly." },
+      {
+        title: "My Accessible Journey ", img: "assets/images/projects/project6.png", desc: "As a Technical Team Member in My Accessible Journey, a project in the Orange Accessibility Challenge 2025, I worked on implementing the interactive map feature, enabling users to explore accessible routes and locations. My contribution focused on front-end integration, map interactivity, and ensuring a smooth and inclusive user experience.",
+        title: "SkyCue", img: "assets/images/projects/project4.png", desc: "An intelligent platform combining meteorology, agriculture, and travel to help users plan smartly."
+      },
     ],
     certsHtml: `
      <div><strong>Nasa Space App Hackathon Participation </strong> <span style="float:right;opacity:.7">Oct 2025</span></div><br/>
